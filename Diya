@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diya Nazar | Personal Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f0f8ff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6c63ff, #6b8eff);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #ffffff;
+      padding: 10px 0;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: #6c63ff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1em;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff6f61;
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: 20px auto;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #6c63ff;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: linear-gradient(135deg, #6c63ff, #6b8eff);
+      color: #fff;
+      margin-top: 20px;
+    }
+
+    .skills ul, .achievements ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    .skills li, .achievements li {
+      color: #333;
+      padding: 5px 0;
+      transition: transform 0.3s;
+    }
+
+    .skills li:hover, .achievements li:hover {
+      transform: translateX(5px);
+      color: #ff6f61;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Diya Nazar</h1>
+    <p>B.Tech Computer Science Student | Aspiring Web Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Diya, a first-year B.Tech Computer Science student at LBSITW College. I'm passionate about learning new things every day and love exploring the world of web development. Apart from coding, I enjoy drawing, dancing, and teaching. Recently, I attended a class at Technopark hosted by Anoop Muralidharan, CTO of Logic Plum.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>Leadership</li>
+      <li>Communication</li>
+      <li>Drawing</li>
+      <li>Coding</li>
+      <li>Dancing</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>First Prize in Ideathon held at LBSITW College.</li>
+      <li>Participant in Tinker Her Hack organized by TinkerHack.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Follow me on Instagram: <a href="https://instagram.com/diya_nazar" target="_blank">@diya_nazar</a></p>
+    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Diya Nazar. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
